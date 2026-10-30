@@ -27,18 +27,8 @@ Este projeto aborda o problema da "fadiga de alertas" gerada pelo elevado volume
 │   └── gerar_grafico_limiar.py # Script Python para geração do gráfico conceptual do limiar dinâmico
 └── revisao_sistematica/        # Dados da extração e triagem metodológica
     ├── data_extraction.xls     # Tabela de extração de dados dos artigos
-    └── parsifal_export.bib     # Exportação BibTeX dos estudos incluídos
+    └── articles.xls            # Exportação dos estudos incluídos
 \`\`\`
-
-## 🛠️ Instruções de Compilação (LaTeX)
-Para compilar o relatório a partir do código fonte:
-1. Certifique-se de que possui uma distribuição LaTeX instalada (e.g., TeX Live, MiKTeX) ou utilize o Overleaf.
-2. Na raiz da pasta `relatorio/`, execute o seguinte comando no terminal:
-   \`\`\`bash
-   pdflatex main.tex
-   pdflatex main.tex
-   \`\`\`
-   *(Nota: O comando deve ser executado duas vezes consecutivas para garantir a correta geração do Índice e das Referências Cruzadas).*
 
 ## 🚀 Trabalhos Futuros (Parte 2)
 Este repositório será atualizado futuramente para acomodar a **Parte 2 (P-P2)** do projeto, que incluirá:
